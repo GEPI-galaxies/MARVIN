@@ -1,0 +1,17 @@
+1                                                [Number of fits to run]
+$PATH_BASE           		       [base_dir]
+$PATH_OBS                          [obs_dir]
+$PATH_MASK                	       [mask_dir]
+$PATH_FIT                          [out_dir]
+-6007200                                                 [your phone number]
+$Lambda_MIN_SN                                           [llow_SN]   lower-lambda of S/N window
+$Lambda_MAX_SN                                           [lupp_SN]   upper-lambda of S/N window
+$Lambda_MIN_FIT                                          [Olsyn_ini] lower-lambda for fit
+$Lambda_MAX_FIT                                          [Olsyn_fin] upper-lambda for fit
+1.0                                              [Odlsyn]    delta-lambda for fit
+1.0                                              [fscale_chi2] fudge-factor for chi2
+$KIN_FIT                                              [FIT/FXK] Fit or Fix kinematics
+1                                                [IsErrSpecAvailable]  1/0 = Yes/No
+1                                                [IsFlagSpecAvailable] 1/0 = Yes/No
+$INPUT   $CONFIG_STARLIGHT   $BASE_STARLIGHT   $MASK_STARLIGHT   $REDDENING_LAW   $V0_STARLIGHT   $VD_STARLIGHT   $OUTPUT
+
